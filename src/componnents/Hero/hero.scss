@@ -1,0 +1,99 @@
+.hero{
+    height:calc(100vh - 100px);
+    overflow: hidden;
+    background: linear-gradient(180deg,#0c0c1d,#111132);
+    position: relative;
+    z-index: -2000;
+    
+  
+
+.wrapper{
+    max-width: 1000px;
+    height: 100%;
+    // margin-left: -150px;
+    // margin-top: 50px;
+    margin: auto;
+     width: 70%;
+     bottom: 0;
+   
+    
+
+
+
+    .textContainer{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+
+        h2{
+            font-size: 20px;
+            color: rgb(255, 37, 4);
+            letter-spacing: 10px;
+        }
+        h1{
+            font-size: 68px;
+
+        }
+
+    button{
+        padding: 10px;
+       
+        border:1px solid rgba(227, 25, 25, 0.34);
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        margin-right: 20px;
+        cursor: pointer;
+        font-weight: 30px;
+
+    }
+
+
+       
+
+
+
+        img{
+            width: 30px;
+        
+        }
+
+
+    }
+}
+
+
+    .imageContainer{
+       
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        .hero1{
+            height: 650px;
+        }
+    }
+
+.slidingTextContainer{
+    position: absolute;
+    font-size: 50vh;
+    bottom: -100px;
+    white-space: nowrap;
+    
+    width: 50%;
+    font-weight: bold;
+    // color: #ffffff09;
+    color:rgba(52, 52, 52, 0.879); /* Fill color of the text */
+  text-shadow:
+    -0.5px -0.5px  0 rgba(255, 0, 0, 0.082), /* Top-left shadow */
+    0.5px  -0.5px  0 rgba(255, 0, 0, 0.082), /* Top-right shadow */
+    -10.5px   1px 0 rgba(255, 0, 0, 0.116), /* Bottom-left shadow */
+     1px  1px 0 rgba(255, 0, 0, 0.082); /* Bottom-right shadow */
+     z-index:- 200;
+    
+}
+
+
+}

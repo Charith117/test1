@@ -1,0 +1,63 @@
+
+
+.sidebar{
+        
+         display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        
+     
+        
+    .bg{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 300px;
+        background: white;
+        // background: linear-gradient(180deg,rgb(249, 249, 249),rgb(242, 120, 120));
+        background: linear-gradient(-45deg,rgb(255, 255, 255),rgb(255, 255, 255));
+        
+        bottom:0;
+        
+        
+        
+    }
+
+    button{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: fixed;
+        top: 25px;
+        left: 25px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+
+
+    }
+}
+.links{ 
+    position: absolute;
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    //color: rgb(0, 0, 0);
+    color: #000000; /* Set the text color */
+    font-size: 24px; /* Set the font size */
+    text-shadow: 0 0 10px rgba(53, 216, 211, 0.8),
+                 0 0 20px rgba(49, 151, 210, 0.8),
+                 0 0 30px rgba(255, 255, 255, 0.8);
+
+    a{
+        font-size: 30px;
+        
+    }
+
+}
